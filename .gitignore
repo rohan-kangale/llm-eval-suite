@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Build Outputs
+dist/
+
+# Environment & Local Secrets
+.env
+.env.local
+.env.production
+.env.development
+*.env
+
+# Runtime & Debug Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# Editor & OS Files
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Temporary / Cache Files
+.tsbuildinfo
+.eslintcache
